@@ -1,0 +1,244 @@
+body {
+ background: black;
+ border-top: 35px solid white;
+ margin-top: auto;
+ margin-left: 0%;
+ margin-right: 0%;
+}
+
+.title {
+  color: black;
+  text-align:;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 20;
+  position: relative;
+  top: -70px;
+  left: 35px;
+}
+
+.head3{
+  font-size: 20px;
+  color: white;
+  font-weight: 20;
+  font-family: monospace;
+  text-align: left;
+  border-right: .15em solid white;
+  letter-spacing: .15em;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+.commands {
+  text-align:left;
+
+}
+
+.console {
+  height: 25px;
+  width: 35px;
+  margin-top: auto;
+  position: relative;
+  top: -30px;
+}
+
+.x {
+  font-size: 25px;
+  color: black;
+  background: white;
+  position: relative;
+  top: -115px;
+  left:1410px;
+  height: 35px;
+  width: 30px;
+}
+
+.text-line {
+  font-size: 40px;
+  color: white;
+  background: black;
+  background-color: black;
+  border: black;
+  width: 100%;
+  position: absolute;
+  margin-left: 0%;
+  bottom: 0%;
+  outline-color: black;
+}
+
+.text-line::placeholder {
+  color: white;
+}
+
+.text-line::before {
+  content: /;
+}
+
+p {
+  color: white;
+  font-family: monospace;
+  font-weight: 20%;
+  font-size: 20px;
+
+}
+
+.animation {
+  text-align: center;
+}
+
+.animation h1 {
+  color: white;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  margin-top: 0%;
+  letter-spacing: .15em;
+  animation:
+    typing 5s steps(30, end),
+    blinking-cursor .3s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+  }
+}
+
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+.animationjs {
+  text-align: center;
+}
+
+.animationjs p {
+  color: white;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  opacity: 0;
+  animation:
+    jstyping 5s steps(50, end),
+    blinking-cursorjs .3s step-end infinite;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  }
+
+  @keyframes jstyping {
+    from {
+    opacity: 1;
+    width: 0%
+  }
+    to {
+    opacity: 1;
+    width: 100% }
+  }
+}
+  @keyframes blinking-cursorjs {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }
+
+
+.animationp {
+  text-align: center;
+}
+
+.animationp p {
+  color: white;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  opacity: 0;
+  animation:
+    ptyping 5s steps(50, end),
+    blinking-cursorp .3s step-end infinite;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+}
+
+@keyframes ptyping {
+  from {
+  opacity: 1;
+  width: 0%
+}
+  to {
+  opacity: 1;
+  width: 100% }
+}
+}
+@keyframes blinking-cursorp {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+.animationlist {
+  text-align: center;
+}
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
